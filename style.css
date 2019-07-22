@@ -1,0 +1,155 @@
+:root {
+    --basicColor:#F58634;
+}
+/* colors */
+.orange-bg {
+    background-color: #F58634 !important;
+    color: #FFFFFF !important;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    position: fixed !important;
+    width: 100%;
+    background: transparent;
+    z-index: 999999;
+}
+.navbar-expand-sm .navbar-nav .nav-link {
+    color: #FFFFFF !important;
+}
+#five {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.two li {
+    margin: 20px;
+    font-size: 20px;
+}
+.three{
+    padding-right: 20px;
+    font-size: 20px;
+}
+.three ul{
+    display: flex;
+    list-style: none;
+    
+    
+}
+.carousel-inner img { 
+    width: 100%; 
+    height: 100vh;
+    object-fit: cover;
+}
+
+.myCarousel {
+    position: relative;
+}
+.overlay {
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+}
+.introText {
+    text-align: center;
+    margin-top: 70px;
+}
+.introText h1 {
+    font-weight: 500 !important;
+    font-size: 50px !important;
+}
+.getStartedButton {
+    background: var(--basicColor) !important;
+    color: #FFFFFF !important;
+    font-weight: 700 !important;
+    padding: 10px !important;
+    border-radius: 5px !important;
+
+}.submitButton {
+    width: 510px;
+    height: 40px;
+    border-radius: 12px;
+    color: #F58634;
+    background-color: black;
+}
+.formSection {
+    margin-top: 80px;
+}
+secondParagraph {
+    color: #aaaaaa;
+    font-size: 14px;
+    font-weight: 400;
+}
+firstParagraph {
+    color: #aaaaaa;
+    font-size: 14px;
+    font-weight: 400;
+}
+.thirdParagraph {
+    color: #aaaaaa;
+    font-size: 14px;
+    font-weight: 400;
+}
+.firstHead {
+    color: #34495;
+    font-size: 18px;
+    font-weight: 500;
+}
+.secondHead {
+    color: #34495;
+    font-size: 18px;
+    font-weight: 500;
+}
+.thirdHead {
+    color: #34495;
+    font-size: 18px;
+    font-weight:500 ;
+}
+}
+.forthHead {
+    color: #34495;
+    font-size: 18px;
+    font-weight:500 ;
+}
+.forthParagraph {
+    color: #aaaaaa;
+    font-size: 14px;
+    font-weight: 400;
+}
+.aboutHead {
+    text-align: center;
+    font-weight: 400rem !important;
+    font-size: 50px !important;
+}
+.thirdSection {
+    background-image: url(/assets/img/AR-4BX-FI-1920x1080.jpg);
+}
+.thirdSection .aboutHead {
+    /* margin-top: 50px !important; */
+    
+}
+.ml-5, .mx-5 {
+    margin-left: 3rem !important;
+    font-weight: bold !important;
+    font-size: 15px !important;
+}
+.mt-5, .my-5 {
+    margin-top: 3rem !important;
+    font-weight: bold !important;
+    font-size: 15px !important;
+}
+.mt-5, .my-5 {
+    margin-top: 3rem !important;
+    /* font-size: 50px !important; */
+    /* font-weight: 500!important; */
+    font-weight: bold !important;
+    font-size: 15px !important;
+}
